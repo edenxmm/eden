@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Eden Melles"
+  title: "Eden M. Melles"
   description: "Academic website for Eden Melles"
   site-url: "https://edenmelles.com"
   navbar:
