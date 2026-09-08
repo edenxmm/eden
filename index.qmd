@@ -5,7 +5,7 @@
 <div class="hero">
 
 <div class="hero-image">
-<img src="images/headshot.jpeg" alt="YOUR NAME">
+<img src="/images/headshot.jpeg" alt="Eden Melles">
 </div>
 
 <div class="hero-text">
