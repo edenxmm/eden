@@ -5,7 +5,7 @@
 <div class="hero">
 
 <div class="hero-image">
-<img src="images/headshot.jpg" alt="YOUR NAME">
+<img src="images/headshot.jpeg" alt="YOUR NAME">
 </div>
 
 <div class="hero-text">
@@ -33,7 +33,7 @@ PS: Political Science & Politics.
 <p>
 
 <div class="buttons">
-<a class="button" href="files/CV.pdf">CV</a>
+<a class="button" href="files/Melles_2026_CV.pdf">CV</a>
 <a class="button outline" href="mailto:edenmelles@u.northwestern.edu">Email</a>
 <a class="button outline" href="https://scholar.google.com/citations?user=_B4ifsUAAAAJ&hl=en">Google Scholar</a>
 </div>
