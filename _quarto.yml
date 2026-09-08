@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Eden Melles"
+  description: "Academic website for Eden Melles"
+  site-url: "https://edenmelles.com"
+  navbar:
+    background: white
+    foreground: "#222222"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "© 2026 Eden Melles"
+    right: "Political Science"
+
+format:
+  html:
+    theme: null
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
