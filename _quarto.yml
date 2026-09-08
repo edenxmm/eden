@@ -28,7 +28,6 @@ website:
 
 format:
   html:
-    theme: null
     css: styles.css
     toc: false
     smooth-scroll: true
