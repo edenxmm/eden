@@ -4,16 +4,11 @@ title: "Contact"
 
 ## Contact
 
-**YOUR NAME**  
+Eden Melles
 Department of Political Science  
-YOUR UNIVERSITY
+Northwestern University 
 
 YOUR CITY, STATE
 
-**Email:** [YOUR-EMAIL@example.com](mailto:YOUR-EMAIL@example.com)
+**Email:** edenmelles@u.northwestern.edu (mailto:edenmelles@u.northwestern.edu)
 
-You can also find me on:
-
-- [Google Scholar](https://scholar.google.com/)
-- [GitHub](https://github.com/YOURUSERNAME)
-- [ORCID](https://orcid.org/)
