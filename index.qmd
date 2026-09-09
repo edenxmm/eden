@@ -17,19 +17,10 @@
 <p class="institution">Northwestern University</p>
 
 <p>
-I am a PhD candidate in the Department of Political Science at Northwestern University. 
-My research examines heterogeneity within group politics primarily with respect to migration and identity. 
-My dissertation project, Borders Beyond Borders: Migration, Identity, and the Transnational Political Behavior of 
-the Eritrean Diaspora, investigates the political and identity socialization processes that Black immigrants undergo in their 
-home countries and in the United States. I conduct an in-depth case study of Eritrean immigrants in the United States
-to illustrate the profound impact salient historical events in the home country, migration pathways, and transnational politics have on
-shaping the process of identity formation and political behavior. Ultimately, my project illuminates novel theoretical and empirical insights
-that helps bridge literature in Race and Ethnicity, American, and Comparative politics, by emphasizing the importance of geopolitical 
-relationships in the formation of identity and political behaviors. 
+I am a PhD candidate in the Department of Political Science at Northwestern University.  My research examines heterogeneity within group politics primarily with respect to migration and identity. 
 
-My work has been supported through the National Science Foundation Graduate Research Fellowship, American Political Science Association,
-and the Northwestern University Graduate School. My research has been published in the Journal of Race, Ethnicity, and Politics as well as 
-PS: Political Science & Politics. 
+
+My work has been supported through the National Science Foundation Graduate Research Fellowship, American Political Science Association, and the Northwestern University Graduate School. My research has been published in the Journal of Race, Ethnicity, and Politics as well as  PS: Political Science & Politics. 
 <p>
 
 <div class="buttons">
