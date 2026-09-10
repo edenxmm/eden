@@ -14,7 +14,7 @@
 body {
   font-family: Georgia, "Times New Roman", serif;
   color: var(--ink);
-  background: #ffffff;
+  background: #eef6fb;
   font-size: 17px;
   line-height: 1.7;
 }
@@ -48,7 +48,7 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: 330px 1fr;
+  grid-template-columns: 370px 1fr;
   gap: 4rem;
   align-items: center;
   padding: 3rem 0 4rem;
@@ -56,9 +56,8 @@ main {
 
 .hero-image img {
   width: 100%;
-  max-width: 330px;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  max-width: 370px;
+  height: auto;
   display: block;
 }
 
