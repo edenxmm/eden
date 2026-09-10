@@ -25,13 +25,13 @@ body {
 }
 
 .navbar-brand {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 600;
   letter-spacing: 0.03em;
 }
 
 .navbar-nav .nav-link {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 0.92rem;
   letter-spacing: 0.02em;
 }
@@ -63,7 +63,7 @@ main {
 }
 
 .hero-text h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.9rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -71,7 +71,7 @@ main {
 }
 
 .hero-text h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--muted);
@@ -79,7 +79,7 @@ main {
 }
 
 .institution {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   color: var(--accent);
   font-size: 1rem;
   margin-bottom: 1.4rem;
@@ -102,7 +102,7 @@ main {
   color: white !important;
   text-decoration: none !important;
   padding: 0.55rem 1.15rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 0.88rem;
   border: 1px solid var(--accent);
   transition: 0.2s ease;
@@ -118,7 +118,7 @@ main {
 }
 
 h1, h2, h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 500;
 }
 
@@ -157,7 +157,7 @@ iframe {
 
 .page-footer {
   border-top: 1px solid var(--border);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 0.8rem;
   color: var(--muted);
 }
