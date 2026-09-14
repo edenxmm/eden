@@ -1,6 +1,5 @@
 ---
 ---
-
 My current CV is available below.
 
 <div class="cv-download">
