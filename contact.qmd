@@ -1,8 +1,6 @@
 ---
-title: "Contact"
----
 
-## Contact
+---
 
 Eden Melles 
 Department of Political Science  
