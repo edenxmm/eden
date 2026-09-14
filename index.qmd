@@ -9,13 +9,6 @@
 </div>
 
 <div class="hero-text">
-
-<h1>Eden M. Melles</h1>
-
-<h2>PhD Candidate in Political Science</h2>
-
-<p class="institution">Northwestern University</p>
-
 <p>
 I am a PhD candidate in the Department of Political Science at Northwestern University.  My research examines heterogeneity within group politics primarily with respect to migration and identity. 
 
