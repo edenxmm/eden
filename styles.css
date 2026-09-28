@@ -1,103 +1,15 @@
-.hero {
-  padding: 1rem 0 3.5rem 0;
-  overflow: hidden;
-}
-
-
-/* Large headshot that sits beside the text */
+/* =========================================================
+   HERO HEADSHOT
+   ========================================================= */
 
 .hero-image {
-  float: left;
-  width: 390px;
-  height: auto;
-  margin: 0.25rem 3rem 1.5rem 0;
-  display: block;
-}
-
-
-/* Name */
-
-.hero h1 {
-  font-size: 3.2rem;
-  line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 0.35rem;
-}
-
-
-/* Position / affiliation */
-
-.subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.05rem;
-  color: var(--muted);
-  margin-bottom: 1.2rem;
-}
-
-
-/* Research areas */
-
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1.25rem 0 1.5rem 0;
-}
-
-.research-tags span {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.03em;
-  color: var(--blue-dark);
-  background: var(--blue-light);
-  border: 1px solid #d9e7f0;
-  border-radius: 20px;
-  padding: 0.3rem 0.75rem;
-}
-
-
-/* Main introductory paragraph */
-
-.hero p {
-  font-size: 1.08rem;
-  line-height: 1.75;
-  margin-top: 1rem;
-}
-
-
-/* Buttons */
-
-.button-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin-top: 1.5rem;
-}
-
-.site-button {
-  display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.82rem;
-  letter-spacing: 0.03em;
-  text-decoration: none !important;
-  color: var(--white) !important;
-  background: var(--blue);
-  border: 1px solid var(--blue);
-  padding: 0.55rem 1rem;
-  border-radius: 3px;
-  transition: all 0.2s ease;
-}
-
-.site-button:hover {
-  background: var(--blue-dark);
-  border-color: var(--blue-dark);
-}
-
-
-/* Clears the floated image after the introduction */
-
-.hero-clear {
-  clear: both;
+  float: left !important;
+  width: 320px !important;
+  max-width: 320px !important;
+  height: auto !important;
+  margin: 0.25rem 2.5rem 1.25rem 0 !important;
+  display: block !important;
+  object-fit: contain !important;
 }
 
 
@@ -108,13 +20,11 @@
 @media (max-width: 900px) {
 
   .hero-image {
-    width: 300px;
-    margin-right: 2rem;
+    width: 280px !important;
+    max-width: 280px !important;
+    margin-right: 2rem !important;
   }
 
-  .hero h1 {
-    font-size: 2.8rem;
-  }
 }
 
 
@@ -124,26 +34,12 @@
 
 @media (max-width: 650px) {
 
-  .hero {
-    text-align: left;
-  }
-
   .hero-image {
-    float: none;
-    width: 280px;
-    max-width: 80%;
-    margin: 0 auto 2rem auto;
+    float: none !important;
+    width: 250px !important;
+    max-width: 75% !important;
+    height: auto !important;
+    margin: 0 auto 2rem auto !important;
   }
 
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero p {
-    font-size: 1.03rem;
-  }
-
-  .button-row {
-    flex-direction: row;
-  }
 }
