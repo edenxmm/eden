@@ -3,9 +3,12 @@
 ---
 <div class="hero">
 
+<div class="hero-image">
+<img src="images/headshot.jpeg" alt="Eden Melles">
+</div>
+
 <div class="hero-text">
 
-# Eden Melles
 
 <div class="subtitle">PhD Candidate in Political Science · Northwestern University</div>
 
@@ -30,12 +33,7 @@ and political behavior.
 
 </div>
 
-<div class="hero-image">
-<img src="images/headshot.jpeg" alt="Eden Melles">
 </div>
-
-</div>
-
 ## Research
 
 My research focuses on heterogeneity within group politics, with broader interests in
