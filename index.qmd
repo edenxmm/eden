@@ -1,12 +1,6 @@
 ---
 
 ---
-
-title: "Eden Melles"
-description: "Academic website for Eden Melles"
-image: images/headshot.jpeg
----
-
 <div class="hero">
 
 <div class="hero-text">
