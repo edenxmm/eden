@@ -1,8 +1,14 @@
 
-Eden Melles 
-Department of Political Science  
-Northwestern University 
+<strong>Eden Melles</strong><br>
+Department of Political Science<br>
+Northwestern University
 
+<p>
 Evanston, IL
+</p>
 
-**Email:** edenmelles@u.northwestern.edu 
+<p>
+<strong>Email:</strong> edenmelles@u.northwestern.edu
+</p>
+
+
