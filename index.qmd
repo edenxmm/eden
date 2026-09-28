@@ -10,9 +10,6 @@
 <div class="hero-text">
 
 
-<div class="subtitle">PhD Candidate in Political Science · Northwestern University</div>
-
-
 <p class="intro">
 I am a Ph.D Candidate at Northwestern University in the Department of Political Science. 
 My research examines heterogeneity within group politics, with a particular
