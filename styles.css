@@ -1,182 +1,123 @@
-/* =========================================================
-   Academic Website — clean political science style
-   Edit the variables below to personalize the site.
-   ========================================================= */
 
-:root {
-  --ink: #222222;
-  --muted: #666666;
-  --accent: #234f7d;
-  --light: #f7f7f5;
-  --border: #dddddd;
-}
-
-body {
-  font-family: Georgia, "Times New Roman", serif;
-  color: var(--ink);
-  background: #eef6fb;
-  font-size: 17px;
-  line-height: 1.7;
-}
-
-.navbar {
-  border-bottom: 1px solid var(--border);
-  padding: 0.65rem 0;
-}
-
-.navbar-brand {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-}
-
-.navbar-nav .nav-link {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.92rem;
-  letter-spacing: 0.02em;
-}
-
-.navbar-nav .nav-link:hover {
-  color: var(--accent) !important;
-}
-
-main {
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem 4rem;
-}
 
 .hero {
   display: grid;
-  grid-template-columns: 370px 1fr;
+  grid-template-columns: 390px minmax(0, 1fr);
   gap: 4rem;
   align-items: center;
-  padding: 3rem 0 4rem;
+  padding: 1rem 0 4rem 0;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 370px;
+  width: 360px;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
-.hero-text h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 2.9rem;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.35rem;
+.hero-text {
+  min-width: 0;
 }
 
-.hero-text h2 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.25rem;
-  font-weight: 400;
+
+/* =========================================================
+   HERO TEXT
+   ========================================================= */
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
   color: var(--muted);
-  margin-top: 0;
+  margin-bottom: 1.2rem;
 }
 
-.institution {
-  font-family: Georgia, "Times New Roman", serif;
-  color: var(--accent);
-  font-size: 1rem;
-  margin-bottom: 1.4rem;
-}
-
-.hero-text p:not(.institution) {
-  max-width: 650px;
-}
-
-.buttons {
+.research-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
-  margin-top: 1.7rem;
+  gap: 0.5rem;
+  margin: 1.25rem 0 1.5rem 0;
 }
 
-.button {
-  display: inline-block;
-  background: var(--accent);
-  color: white !important;
-  text-decoration: none !important;
-  padding: 0.55rem 1.15rem;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.88rem;
-  border: 1px solid var(--accent);
-  transition: 0.2s ease;
+.research-tags span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: var(--blue-dark);
+  background: var(--blue-light);
+  border: 1px solid #d9e7f0;
+  border-radius: 20px;
+  padding: 0.3rem 0.75rem;
 }
 
-.button:hover {
-  opacity: 0.85;
+.intro {
+  font-size: 1.12rem;
+  line-height: 1.75;
+  max-width: 650px;
+  margin-bottom: 1.7rem;
 }
 
-.button.outline {
-  background: white;
-  color: var(--accent) !important;
-}
 
-h1, h2, h3 {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 500;
-}
+/* =========================================================
+   MOBILE HERO
+   ========================================================= */
 
-h1 {
-  font-size: 2.3rem;
-  margin-bottom: 2rem;
-}
-
-h2 {
-  font-size: 1.55rem;
-  margin-top: 2.8rem;
-}
-
-h3 {
-  font-size: 1.2rem;
-  margin-top: 2rem;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 1rem 0 3rem;
-}
-
-a {
-  color: var(--accent);
-}
-
-.cv-download {
-  margin: 1.5rem 0 2rem;
-}
-
-iframe {
-  border: 1px solid var(--border);
-}
-
-.page-footer {
-  border-top: 1px solid var(--border);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.8rem;
-  color: var(--muted);
-}
-
-@media (max-width: 800px) {
-  main {
-    padding: 1.5rem 1.2rem 3rem;
-  }
+@media (max-width: 900px) {
 
   .hero {
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding-top: 1.5rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .hero-image {
+    order: 1;
+  }
+
+  .hero-text {
+    order: 2;
   }
 
   .hero-image img {
-    max-width: 240px;
+    width: 300px;
+    max-width: 85%;
+    height: auto;
   }
 
-  .hero-text h1 {
-    font-size: 2.25rem;
+  .research-tags {
+    justify-content: center;
   }
+
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-row {
+    justify-content: center;
+  }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .hero-image img {
+    width: 250px;
+    max-width: 80%;
+  }
+
+  .intro {
+    font-size: 1.03rem;
+  }
+
 }
