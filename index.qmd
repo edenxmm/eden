@@ -2,30 +2,45 @@
 
 ---
 
+title: "Eden Melles"
+description: "Academic website for Eden Melles"
+image: images/headshot.jpeg
+---
+
 <div class="hero">
 
-<div class="hero-image">
-<img src="/images/headshot.jpeg" alt="Eden Melles">
-</div>
-
 <div class="hero-text">
-<p>
-I am a PhD candidate in the Department of Political Science at Northwestern University.  My research examines heterogeneity within group politics primarily with respect to migration and identity. 
 
+# Eden Melles
 
-My work has been supported through the National Science Foundation Graduate Research Fellowship, American Political Science Association, and the Northwestern University Graduate School. My research has been published in the Journal of Race, Ethnicity, and Politics as well as  PS: Political Science & Politics. 
-<p>
+<div class="subtitle">PhD Candidate in Political Science · Northwestern University</div>
 
-<div class="buttons">
-<a class="button" href="files/Melles_2026_CV.pdf">CV</a>
-<a class="button outline" href="mailto:edenmelles@u.northwestern.edu">Email</a>
-<a class="button outline" href="https://scholar.google.com/citations?user=_B4ifsUAAAAJ&hl=en">Google Scholar</a>
+<div class="research-tags">
+<span>Race & Ethnicity</span>
+<span>Migration</span>
+<span>Political Behavior</span>
+</div>
+
+<p class="intro">
+My research examines heterogeneity within group politics, with a particular
+focus on how migration and identity shape political attitudes and behavior.
+My work is situated at the intersection of race and ethnicity, immigration,
+and political behavior.
+</p>
+
+<div class="button-row">
+<a class="site-button" href="cv.html">CV</a>
+<a class="site-button" href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+<a class="site-button" href="mailto:edenmelles@u.northwestern.edu">Email</a>
 </div>
 
 </div>
+
+<div class="hero-image">
+<img src="images/headshot.jpeg" alt="Eden Melles">
 </div>
 
-<hr>
+</div>
 
 ## Research
 
