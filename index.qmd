@@ -28,7 +28,7 @@ the Northwestern University Graduate School.
 
 <div class="button-row">
 <a class="site-button" href="cv.html">CV</a>
-<a class="site-button" href="https://scholar.google.com/" target="_blank">
+<a class="site-button" href="https://scholar.google.com/citations?user=_B4ifsUAAAAJ&hl=en" target="_blank">
 Google Scholar
 </a>
 <a class="site-button" href="mailto:edenmelles@u.northwestern.edu">
