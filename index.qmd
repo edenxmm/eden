@@ -1,6 +1,4 @@
----
 
----
 <div class="hero">
 
 <img class="hero-image" src="images/headshot.jpeg" alt="Eden Melles">
