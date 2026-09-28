@@ -37,9 +37,8 @@ Email
 </div>
 
 <div class="hero-clear"></div>
+</div>
 
-</div>
-</div>
 ## Research
 
 My research focuses on heterogeneity within group politics, with broader interests in
