@@ -1,99 +1,10 @@
-/* =========================================================
-   HERO
-   ========================================================= */
-
-.hero {
-  display: block;
-  overflow: hidden;
-  padding: 1rem 0 3.5rem 0;
-}
-
-
-/* =========================================================
-   HEADSHOT
-   ========================================================= */
-
 .hero-image {
   float: left;
   display: block;
-
-  width: 250px;
-  max-width: 250px;
-  height: auto;
-
+  width: 320px !important;
+  max-width: 320px !important;
+  height: auto !important;
   margin: 0 2.5rem 1.25rem 0;
-}
-
-
-/* =========================================================
-   HERO TEXT
-   ========================================================= */
-
-.hero h1 {
-  font-size: 3.2rem;
-  line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 0.35rem;
-}
-
-.subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.05rem;
-  color: var(--muted);
-  margin-bottom: 1.2rem;
-}
-
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1.25rem 0 1.5rem 0;
-}
-
-.research-tags span {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.03em;
-  color: var(--blue-dark);
-  background: var(--blue-light);
-  border: 1px solid #d9e7f0;
-  border-radius: 20px;
-  padding: 0.3rem 0.75rem;
-}
-
-.hero p {
-  font-size: 1.05rem;
-  line-height: 1.75;
-  margin-top: 1rem;
-}
-
-
-/* =========================================================
-   BUTTONS
-   ========================================================= */
-
-.button-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin-top: 1.5rem;
-}
-
-.site-button {
-  display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.82rem;
-  text-decoration: none !important;
-  color: var(--white) !important;
-  background: var(--blue);
-  border: 1px solid var(--blue);
-  padding: 0.55rem 1rem;
-  border-radius: 3px;
-}
-
-.site-button:hover {
-  background: var(--blue-dark);
-  border-color: var(--blue-dark);
 }
 
 
@@ -104,8 +15,8 @@
 @media (max-width: 900px) {
 
   .hero-image {
-    width: 220px;
-    max-width: 220px;
+    width: 210px !important;
+    max-width: 210px !important;
     margin-right: 2rem;
   }
 
@@ -120,13 +31,32 @@
 
   .hero-image {
     float: none;
-    width: 210px;
-    max-width: 70%;
-    margin: 0 auto 2rem auto;
+    width: 150px !important;
+    max-width: 150px !important;
+    height: auto !important;
+    margin: 0 auto 1.5rem auto;
+  }
+
+  .hero {
+    text-align: left;
   }
 
   .hero h1 {
     font-size: 2.5rem;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+  .hero-image {
+    width: 135px !important;
+    max-width: 135px !important;
   }
 
 }
