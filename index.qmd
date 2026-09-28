@@ -9,6 +9,16 @@
 
 <div class="hero-text">
 
+# Eden Melles
+
+<div class="subtitle">PhD Candidate in Political Science · Northwestern University</div>
+
+<div class="research-tags">
+<span>Race & Ethnicity</span>
+<span>Migration</span>
+<span>Political Behavior</span>
+</div>
+
 
 <p class="intro">
 I am a Ph.D Candidate at Northwestern University in the Department of Political Science. 
