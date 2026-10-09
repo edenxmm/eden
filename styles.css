@@ -11,13 +11,14 @@ width: 100%;
 margin: 0 0 1.5rem 0;
 }
 
+
 .hero-image {
-display: block;
-width: 100% !important;
-max-width: 340px !important;
-height: auto !important;
-margin: 0 !important;
-float: none !important;
+  float: left;
+  display: block;
+  width: 360px !important;
+  max-width: 360px !important;
+  height: auto !important;
+  margin: 0 2rem 1.25rem 0;
 }
 
 .hero-text {
