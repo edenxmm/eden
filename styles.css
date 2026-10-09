@@ -1,11 +1,8 @@
-/* =========================================================
-DESKTOP
-========================================================= */
-
+/* DESKTOP */
 .hero {
 display: grid;
 grid-template-columns: 320px minmax(0, 1fr);
-column-gap: 2.5rem;
+gap: 2.5rem;
 align-items: start;
 }
 
@@ -14,61 +11,61 @@ display: block;
 width: 100% !important;
 max-width: 320px !important;
 height: auto !important;
-margin: 0;
+margin: 0 !important;
 }
 
-/* =========================================================
-TABLET
-========================================================= */
+.hero-text {
+min-width: 0;
+}
 
+.hero-text p:first-child {
+margin-top: 0;
+}
+
+.hero-text p {
+margin-bottom: 1.2rem;
+}
+
+/* TABLET */
 @media (max-width: 900px) {
-
 .hero {
 grid-template-columns: 240px minmax(0, 1fr);
-column-gap: 2rem;
+gap: 2rem;
 }
 
 .hero-image {
 max-width: 240px !important;
 }
-
 }
 
-/* =========================================================
-MOBILE
-========================================================= */
-
+/* MOBILE */
 @media (max-width: 650px) {
-
 .hero {
 display: flex;
 flex-direction: column;
 align-items: center;
-text-align: left;
+gap: 0;
 }
 
 .hero-image {
 width: 200px !important;
 max-width: 200px !important;
-height: auto !important;
-margin: 0 auto 1.5rem auto;
+margin: 0 auto 1.5rem auto !important;
+}
+
+.hero-text {
+width: 100%;
 }
 
 .hero h1 {
 font-size: 2.5rem;
 }
-
 }
 
-/* =========================================================
-VERY SMALL PHONES
-========================================================= */
-
+/* VERY SMALL PHONES */
 @media (max-width: 400px) {
-
 .hero-image {
 width: 180px !important;
 max-width: 180px !important;
 }
-
 }
