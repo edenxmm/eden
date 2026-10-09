@@ -1,6 +1,6 @@
+
 <div class="hero">
   <img src="images/headshot.jpeg" alt="Eden Melles" class="hero-image">
-
   <div class="hero-text">
     <p>Welcome! I am a Ph.D. Candidate at Northwestern University in the Department of Political Science. My research examines heterogeneity within group politics, with a particular focus on how migration and identity shape political attitudes and behavior.</p>
 
@@ -15,9 +15,7 @@
     </p>
   </div>
 </div>
-
 <div class="hero-clear"></div>
-
 
 ::: {.research-publications}
 
