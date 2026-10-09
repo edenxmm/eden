@@ -1,62 +1,74 @@
-.hero-image {
-  float: left;
-  display: block;
-  width: 320px !important;
-  max-width: 320px !important;
-  height: auto !important;
-  margin: 0 2.5rem 1.25rem 0;
+/* =========================================================
+DESKTOP
+========================================================= */
+
+.hero {
+display: grid;
+grid-template-columns: 320px minmax(0, 1fr);
+column-gap: 2.5rem;
+align-items: start;
 }
 
+.hero-image {
+display: block;
+width: 100% !important;
+max-width: 320px !important;
+height: auto !important;
+margin: 0;
+}
 
 /* =========================================================
-   TABLET
-   ========================================================= */
+TABLET
+========================================================= */
 
 @media (max-width: 900px) {
 
-  .hero-image {
-    width: 210px !important;
-    max-width: 210px !important;
-    margin-right: 2rem;
-  }
+.hero {
+grid-template-columns: 240px minmax(0, 1fr);
+column-gap: 2rem;
+}
+
+.hero-image {
+max-width: 240px !important;
+}
 
 }
 
-
 /* =========================================================
-   MOBILE
-   ========================================================= */
+MOBILE
+========================================================= */
 
 @media (max-width: 650px) {
 
-  .hero-image {
-    float: none;
-    width: 150px !important;
-    max-width: 150px !important;
-    height: auto !important;
-    margin: 0 auto 1.5rem auto;
-  }
+.hero {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: left;
+}
 
-  .hero {
-    text-align: left;
-  }
+.hero-image {
+width: 200px !important;
+max-width: 200px !important;
+height: auto !important;
+margin: 0 auto 1.5rem auto;
+}
 
-  .hero h1 {
-    font-size: 2.5rem;
-  }
+.hero h1 {
+font-size: 2.5rem;
+}
 
 }
 
-
 /* =========================================================
-   VERY SMALL PHONES
-   ========================================================= */
+VERY SMALL PHONES
+========================================================= */
 
 @media (max-width: 400px) {
 
-  .hero-image {
-    width: 135px !important;
-    max-width: 135px !important;
-  }
+.hero-image {
+width: 180px !important;
+max-width: 180px !important;
+}
 
 }
