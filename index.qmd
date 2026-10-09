@@ -9,7 +9,7 @@ My dissertation project, <em>Borders Beyond Borders: Migration, Identity, and th
 
    My work has been supported through the National Science Foundation Graduate Research Fellowship, the American Political Science Association, and the Northwestern University Graduate School.
 
-  class="hero-links"
+
       <a href="cv.html">CV</a>
       <a href="https://scholar.google.com/citations?user=_B4ifsUAAAAJ&hl=en">Google Scholar</a> ·
       <a href="mailto:edenmelles@u.northwestern.edu">Email</a>
