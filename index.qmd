@@ -20,31 +20,30 @@
 <div class="hero-clear"></div>
 </div>
 
+::: {.research-publications}
+
 ## Research
 
-My research focuses on heterogeneity within group politics, with broader interests in
-race and ethnicity, migration, and political behavior. 
-
+My research focuses on heterogeneity within group politics, with broader interests in race and ethnicity, migration, and political behavior.
 
 My current research projects investigate:
 
-- **Borders Beyond Borders: Migration, Identity, and the Transnational Political Behavior of 
-the Eritrean Diaspora** — how the process of identity formation and political socialization is shaped through transnational processes.
-- **Black and Ethnic: Theorizing New Approaches to the Study of Black Immigrants in
-the United States** —  how aggregation bias in the study of Black immigrants can obscure meaningful within group heterogeneity.
-- **Investigating the Naturalization Gap: Determinants of
-Immigrant Political Participation in the US** —  how time to naturalization in the US has impacts on immigrant political participation.
+- **Borders Beyond Borders: Migration, Identity, and the Transnational Political Behavior of the Eritrean Diaspora** — how the process of identity formation and political socialization is shaped through transnational processes.
+- **Black and Ethnic: Theorizing New Approaches to the Study of Black Immigrants in the United States** — how aggregation bias in the study of Black immigrants can obscure meaningful within group heterogeneity.
+- **Investigating the Naturalization Gap: Determinants of Immigrant Political Participation in the US** — how time to naturalization in the US has impacts on immigrant political participation.
 
-[View my research →](research.qmd)
+[View my research →](https://edenmelles.com/research.html)
 
 ## Recent Publications & Working Papers
 
-**Intergroup Solidarity: White and
-Black Responses to Criticism and Support for Palestine**  
+**Intergroup Solidarity: White and Black Responses to Criticism and Support for Palestine**
+
 Forthcoming *PS: Political Science & Politics*, 2026
 
-**Examining Religious and Racial Identity for Black
-Christians and Muslims in the United States**  
+**Examining Religious and Racial Identity for Black Christians and Muslims in the United States**
+
 *The Journal of Race, Ethnicity, and Politics*, 2026
 
-[View publications →](publications.qmd)
+[View publications →](https://edenmelles.com/publications.html)
+
+:::
