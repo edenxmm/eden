@@ -100,3 +100,19 @@ max-width: 180px !important;
     max-width: 100%;
   }
 }
+
+
+/* Reduce space before the Research section */
+.hero {
+  margin-bottom: 0.5rem !important;
+}
+
+.hero-clear {
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.research-publications {
+  margin-top: 0;
+}
