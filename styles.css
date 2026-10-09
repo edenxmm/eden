@@ -1,40 +1,46 @@
 /* DESKTOP */
 .hero {
 display: grid;
-grid-template-columns: 320px minmax(0, 1fr);
-gap: 2.5rem;
+grid-template-columns: 300px minmax(0, 1fr);
+gap: 2rem;
 align-items: start;
+margin-bottom: 1.5rem;
 }
 
 .hero-image {
 display: block;
-width: 100% !important;
-max-width: 320px !important;
+width: 300px !important;
+max-width: 100% !important;
 height: auto !important;
 margin: 0 !important;
 }
 
-.hero-text {
+.hero-intro {
 min-width: 0;
 }
 
-.hero-text p:first-child {
+.hero-intro p {
 margin-top: 0;
 }
 
-.hero-text p {
+.below-hero {
+clear: both;
+width: 100%;
+}
+
+.below-hero p {
 margin-bottom: 1.2rem;
 }
 
 /* TABLET */
 @media (max-width: 900px) {
 .hero {
-grid-template-columns: 240px minmax(0, 1fr);
-gap: 2rem;
+grid-template-columns: 230px minmax(0, 1fr);
+gap: 1.5rem;
 }
 
 .hero-image {
-max-width: 240px !important;
+width: 230px !important;
 }
 }
 
@@ -45,6 +51,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 0;
+margin-bottom: 1rem;
 }
 
 .hero-image {
@@ -53,12 +60,9 @@ max-width: 200px !important;
 margin: 0 auto 1.5rem auto !important;
 }
 
-.hero-text {
+.hero-intro,
+.below-hero {
 width: 100%;
-}
-
-.hero h1 {
-font-size: 2.5rem;
 }
 }
 
@@ -66,6 +70,5 @@ font-size: 2.5rem;
 @media (max-width: 400px) {
 .hero-image {
 width: 180px !important;
-max-width: 180px !important;
 }
 }
