@@ -86,3 +86,17 @@ width: 180px !important;
 max-width: 180px !important;
 }
 }
+
+/* Keep research and publication text readable on desktop */
+.research-publications {
+  width: 100%;
+  max-width: 850px;
+  margin-right: auto;
+}
+
+/* Avoid overly long lines on smaller screens */
+@media (max-width: 900px) {
+  .research-publications {
+    max-width: 100%;
+  }
+}
