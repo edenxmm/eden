@@ -1,21 +1,27 @@
 
-<div class="hero"> <img src="images/headshot.jpeg" alt="Eden Melles" class="hero-image" />
+<div class="hero">
+  <img src="images/headshot.jpeg" alt="Eden Melles" class="hero-image">
 
-<div class="hero-text">
+  <div class="hero-intro">
+    <p>
+    Welcome! I am a Ph.D. Candidate at Northwestern University in the Department of Political Science. My research examines heterogeneity within group politics, with a particular focus on how migration and identity shape political attitudes and behavior.
+    </p>
+  </div>
+</div>
 
-<p>
-Welcome! I am a Ph.D. Candidate at Northwestern University in the Department of Political Science. My research examines heterogeneity within group politics, with a particular focus on how migration and identity shape political attitudes and behavior.
-</p>
+<div class="below-hero">
 
-<p>
-My dissertation project, <em>Borders Beyond Borders: Migration, Identity, and the Transnational Political Behavior of the Eritrean Diaspora</em>, investigates the political and identity socialization processes that Black immigrants undergo in their home countries and in the United States.
-I conduct an in-depth case study of Eritrean immigrants in the United States to illustrate the profound impact salient events in the home country, migration pathways, and transnational politics have on shaping identity formation and political behavior.
+  <p>
+ My dissertation project, <em>Borders Beyond Borders: Migration, Identity, and the Transnational Political Behavior of the Eritrean Diaspora</em>, investigates the political and identity socialization processes that Black immigrants undergo in their home countries and in the United States. I conduct an in-depth case study of Eritrean immigrants in the United States to illustrate the profound impact salient events in the home country, migration pathways, and transnational politics have on shaping the process of identity formation and political behavior.
 Ultimately, my project illuminates novel theoretical and empirical insights that help bridge literatures in Race and Ethnicity, American, and Comparative Politics by emphasizing the importance of geopolitical relationships in the formation of identity and political behavior.
-</p>
+  </p>
 
-<p>
-My work has been supported through the National Science Foundation Graduate Research Fellowship, the American Political Science Association, and the Northwestern University Graduate School.
-</p>
+  <p>
+  My work has been supported through the National Science Foundation Graduate Research Fellowship, the American Political Science Association, and the Northwestern University Graduate School.
+  </p>
+
+</div>
+
 
 </div> </div>
 
