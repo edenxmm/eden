@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - "files/**"
 website:
   title: Eden M. Melles
   description: "Academic website for Eden Melles"
